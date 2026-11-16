@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maïna Esthétique</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fff7f8, #f9e9ee);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #4a353b;
+}
+
+.card {
+    width: 100%;
+    max-width: 430px;
+    background: white;
+    border-radius: 28px;
+    padding: 34px 24px 30px;
+    text-align: center;
+    box-shadow: 0 10px 35px rgba(80, 40, 50, 0.12);
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 18px;
+}
+
+.line {
+    width: 90px;
+    height: 2px;
+    background: #edb8c5;
+    margin: 8px auto 22px;
+    position: relative;
+}
+
+.line::after {
+    content: "♥";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -58%);
+    background: white;
+    padding: 0 8px;
+    color: #e8a9b8;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 27px;
+    margin: 0;
+    color: #3e2b31;
+}
+
+.subtitle {
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 10px 0 28px;
+    color: #725d64;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    padding: 16px 20px;
+    margin: 14px 0;
+    border-radius: 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.10);
+}
+
+.instagram {
+    background: linear-gradient(45deg, #ff9a2f, #ef3d68, #a82bb2);
+}
+
+.facebook {
+    background: #1877f2;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.footer {
+    margin-top: 30px;
+    padding-top: 22px;
+    border-top: 1px solid #efd3da;
+    color: #9a727c;
+    font-size: 15px;
+    font-style: italic;
+}
+</style>
+</head>
+
+<body>
+
+<main class="card">
+
+    <div style="font-size:75px; color:#f3a6b7;">
+        🌸
+    </div>
+
+    <h1>Maïna Esthétique</h1>
+
+    <div class="line"></div>
+
+    <p class="subtitle">
+        Retrouvez-nous sur nos réseaux sociaux
+    </p>
+
+    <a class="btn instagram"
+       href="https://www.instagram.com/mainaesthetique/"
+       target="_blank">
+        <span class="icon">📸</span>
+        Instagram
+    </a>
+
+    <a class="btn facebook"
+       href="https://www.facebook.com/mainaesthetique/?locale=fr_FR"
+       target="_blank">
+        <span class="icon">👍</span>
+        Facebook
+    </a>
+
+    <div class="footer">
+        Merci de nous suivre 💗
+    </div>
+
+</main>
+
+</body>
+</html>
